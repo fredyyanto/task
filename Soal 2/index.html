@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greatest Common Divisor</title>
+</head>
+<body>
+	<script>
+		var gcd = function(a, b) {
+			console.log('A: '+a);
+			console.log('B: '+b);
+			
+		    if (b==0) {
+		        return a;
+		    }else{
+		    	return gcd(b, a%b);
+		    }
+		    
+		};
+
+		console.log(gcd(14,21));
+	</script>
+</body>
+</html>

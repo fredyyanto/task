@@ -1,0 +1,37 @@
+.ink-navigation ul.menu{
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+
+section > span{
+	padding: 1em;
+	text-align: center;
+}
+
+.news-feed{
+	border: 1px solid black;
+	padding: 0.5em;
+	height: 15em;
+}
+
+.news-feed a{
+	color: #000;
+}
+
+.news-feed a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+.news-feed span{
+	font-size: 12px;
+	margin-top: 2em;
+	text-align: right;
+	display: block;
+}
+
+.news-image{
+	text-align: center;
+}
